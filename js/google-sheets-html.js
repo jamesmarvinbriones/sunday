@@ -6,7 +6,7 @@ google.load('visualization', '1', {
 var visualization;
 
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1yrrLJcpsueMT-tbZn21u1ybiVqHARcUVxpy2eecnZ5o&output=html&usp=sharing');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1oVyrs-G6sk1pA16XlVEU6o5py75qasXGibA4Hzrj-OQ&output=html&usp=sharing');
     query.setQuery('SELECT A, B, C, D label A "Current Date", B "Last Sunday", C "Day", D "x"');
     query.send(handleQueryResponse);
 }
